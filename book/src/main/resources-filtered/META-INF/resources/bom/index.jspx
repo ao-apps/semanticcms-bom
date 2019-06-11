@@ -61,7 +61,6 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 			<ul>
 				<li><core:link book="/all" page="/" /></li>
 				<li><core:link book="/autogit/bom" page="/" /></li>
-				<li><core:link book="/autogit/bom" page="/" /></li>
 				<li><core:link book="/changelog/taglib" page="/" /></li>
 				<li><core:link book="/core/bom" page="/" /></li>
 				<li><core:link book="/dia/bom" page="/" /></li>
