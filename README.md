@@ -37,8 +37,6 @@ Bill of Materials (BOM) for all [SemanticCMS](https://github.com/aoindustries/se
 * [SemanticCMS News BOM](https://github.com/aoindustries/semanticcms-news-bom)
 * [SemanticCMS OpenFile BOM](https://github.com/aoindustries/semanticcms-openfile-bom)
 * [SemanticCMS PageGraph](https://github.com/aoindustries/semanticcms-pagegraph)
-* [SemanticCMS Pages BOM](https://github.com/aoindustries/semanticcms-pages-bom)
-* [SemanticCMS Resources BOM](https://github.com/aoindustries/semanticcms-resources-bom)
 * [SemanticCMS Section BOM](https://github.com/aoindustries/semanticcms-section-bom)
 * [SemanticCMS Tag Reference](https://github.com/aoindustries/semanticcms-tag-reference)
 * [SemanticCMS Theme Documentation](https://github.com/aoindustries/semanticcms-theme-documentation)
