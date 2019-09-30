@@ -36,7 +36,7 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-11T03:26:41-0500"
-		dateModified="2019-07-23T19:41:03-0500"
+		dateModified="2019-09-30T07:17:35-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-bom:pom.version}" />
@@ -54,9 +54,14 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>Updated version of <core:link book="/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/changelog/taglib" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/core/bom" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/news/bom" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/core/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/dia/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/file/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/news/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/openfile/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/section/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/tag-reference" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/view-all" page="/index.jspx" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
