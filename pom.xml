@@ -26,7 +26,7 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 
 	<parent>
 		<groupId>com.semanticcms</groupId><artifactId>semanticcms-parent</artifactId><version>1.5.0-SNAPSHOT</version>
-		<relativePath>../../parent/pom.xml</relativePath>
+		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.semanticcms</groupId><artifactId>semanticcms-bom</artifactId><version>1.6.0-POST-SNAPSHOT</version>
