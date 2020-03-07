@@ -49,9 +49,9 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 			<changelog:release
 				projectName="@{documented.name}"
 				version="#{version}"
-				groupId="@{documented.groupId}"
+				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
-				scmUrl="@{documented.scm.url}"
+				scmUrl="@{project.scm.url}"
 			/>
 		</c:if>
 
@@ -59,9 +59,9 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.6.0"
 			datePublished="2019-10-12T04:46:42-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated version of <core:link book="/all" page="/" />.</li>
@@ -85,9 +85,9 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.5.0"
 			datePublished="2019-06-23T01:44:25-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>
