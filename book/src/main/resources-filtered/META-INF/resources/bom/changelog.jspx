@@ -37,7 +37,7 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-11T03:26:41-0500"
-		dateModified="2020-08-02T14:51:36-05:00"
+		dateModified="2020-08-19T23:54:02-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-bom:pom.version}" />
@@ -55,7 +55,11 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>Updated version of <core:link book="/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/autogit/bom" page="/index.jspx" />.</li>
 					<li>Updated version of <core:link book="/core/bom" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/openfile/bom" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/pagegraph" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/theme-documentation" page="/index.jspx" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
