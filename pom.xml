@@ -179,9 +179,6 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>org.apache.commons</groupId><artifactId>commons-lang3</artifactId><version>3.11</version>
 			</dependency>
 			<dependency>
-				<groupId>org.webjars</groupId><artifactId>jquery</artifactId><version>3.5.1</version>
-			</dependency>
-			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.15.1${POST-SNAPSHOT}</version>
 			</dependency>
 		</dependencies>
