@@ -37,7 +37,7 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-11T03:26:41-0500"
-		dateModified="2020-08-28T18:36:56-05:00"
+		dateModified="2020-11-18T23:21:44-06:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-bom:pom.version}" />
@@ -56,10 +56,15 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 				<ul>
 					<li>Updated version of <core:link book="/all" page="/" />.</li>
 					<li>Updated version of <core:link book="/autogit/bom" page="/" />.</li>
+					<li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
 					<li>Updated version of <core:link book="/core/bom" page="/" />.</li>
+					<li>Updated version of <core:link book="/dia/bom" page="/" />.</li>
+					<li>Updated version of <core:link book="/file/bom" page="/" />.</li>
+					<li>Updated version of <core:link book="/news/bom" page="/" />.</li>
 					<li>Updated version of <core:link book="/openfile/bom" page="/" />.</li>
 					<li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
 					<li>Updated version of <core:link book="/section/bom" page="/" />.</li>
+					<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
 					<li>Updated version of <core:link book="/theme-documentation" page="/" />.</li>
 				</ul>
 			</changelog:release>
