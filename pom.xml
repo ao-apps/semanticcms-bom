@@ -202,7 +202,7 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.10.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>6.6.0</version>
+				<groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>6.6.2</version>
 			</dependency>
 			<dependency>
 				<groupId>org.webjars.npm</groupId><artifactId>lodash</artifactId><version>4.17.21</version>
