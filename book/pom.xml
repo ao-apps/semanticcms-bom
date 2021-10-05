@@ -71,20 +71,20 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/semanticcms-bom.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-bom.git</developerConnection>
-		<url>https://github.com/aoindustries/semanticcms-bom</url>
+		<connection>scm:git:git://github.com/ao-apps/semanticcms-bom.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/semanticcms-bom.git</developerConnection>
+		<url>https://github.com/ao-apps/semanticcms-bom</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/semanticcms-bom/issues</url>
+		<url>https://github.com/ao-apps/semanticcms-bom/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/semanticcms-bom/actions</url>
+		<url>https://github.com/ao-apps/semanticcms-bom/actions</url>
 	</ciManagement>
 
 	<repositories>
