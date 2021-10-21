@@ -224,6 +224,9 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoapps</groupId><artifactId>ao-fluent-html-any</artifactId><version>0.5.3${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.1.2${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>7.1.1</version>
 			</dependency>
 		</dependencies>
