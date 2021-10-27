@@ -51,6 +51,7 @@ along with semanticcms-bom.  If not, see <http://www.gnu.org/licenses />.
 				<ul>
 					<li>Updated version of <core:link book="/all" page="/index.jspx" />.</li>
 					<li>Updated version of <core:link book="/core/bom" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/theme-documentation" page="/index.jspx" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
