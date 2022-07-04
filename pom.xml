@@ -39,7 +39,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
-  <name>SemanticCMS BOM²</name>
+  <name>SemanticCMS BOM</name>
   <url>https://semanticcms.com/bom/</url>
   <description>Bill of Materials (BOM) for all SemanticCMS packages.</description>
   <inceptionYear>2019</inceptionYear>
