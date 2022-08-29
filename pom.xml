@@ -244,6 +244,9 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
       <dependency>
         <groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>7.6.1</version>
       </dependency>
+      <dependency>
+        <groupId>org.webjars.npm</groupId><artifactId>jquery</artifactId><version>3.6.1</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>
