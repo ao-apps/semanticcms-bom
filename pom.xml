@@ -32,9 +32,6 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.semanticcms</groupId><artifactId>semanticcms-bom</artifactId><version>1.13.3-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-  </properties>
-
   <name>SemanticCMS BOM</name>
   <url>https://semanticcms.com/bom/</url>
   <description>Bill of Materials (BOM) for all SemanticCMS packages.</description>
