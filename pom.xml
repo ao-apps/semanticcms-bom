@@ -104,114 +104,115 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.13.3${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.13.3${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-bom</artifactId><version>1.6.2${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-bom</artifactId><version>1.9.3${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-bom</artifactId><version>1.7.3${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-bom</artifactId><version>1.7.1${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId><version>1.3.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId><version>1.3.1${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-bom</artifactId><version>1.7.2${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-pagegraph</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-pagegraph</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-bom</artifactId><version>1.7.2${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.10.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.10.1${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.12.3${POST-SNAPSHOT}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.12.3${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.9.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.9.1${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-all</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-all</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-tree</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-tree</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-what-links-here</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
+      </dependency>
+      <!-- Imports -->
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.13.3-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-what-links-here</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-bom</artifactId><version>1.6.2-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-what-links-here</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.6.0-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-bom</artifactId><version>1.9.3-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-bom</artifactId><version>1.7.3-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-bom</artifactId><version>1.7.1-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId><version>1.3.1-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-bom</artifactId><version>1.7.2-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.6.1-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-pagegraph</artifactId><version>1.7.0-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-bom</artifactId><version>1.7.2-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.10.1-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.12.3-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.9.1-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-all</artifactId><version>1.8.0-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-tree</artifactId><version>1.6.1-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-what-links-here</artifactId><version>1.7.0-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -260,4 +261,93 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <dependencies>
+    <!-- Imports (Reactor build order only) -->
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.13.3-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-bom</artifactId><version>1.6.2-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.6.0-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-bom</artifactId><version>1.9.3-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-bom</artifactId><version>1.7.3-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-bom</artifactId><version>1.7.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId><version>1.3.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-bom</artifactId><version>1.7.2-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.6.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-pagegraph</artifactId><version>1.7.0-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-bom</artifactId><version>1.7.2-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.10.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.12.3-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.9.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-all</artifactId><version>1.8.0-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-tree</artifactId><version>1.6.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-what-links-here</artifactId><version>1.7.0-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+  </dependencies>
 </project>
