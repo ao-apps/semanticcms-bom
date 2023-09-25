@@ -29,12 +29,12 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.semanticcms</groupId><artifactId>semanticcms-bom</artifactId><version>1.14.0</version>
+  <groupId>com.semanticcms</groupId><artifactId>semanticcms-bom</artifactId><version>1.14.0-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
     <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
-    <project.build.outputTimestamp>2023-09-25T08:10:28Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
   </properties>
 
   <name>SemanticCMS BOM</name>
@@ -69,7 +69,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
     <connection>scm:git:git://github.com/ao-apps/semanticcms-bom.git</connection>
     <developerConnection>scm:git:git@github.com:ao-apps/semanticcms-bom.git</developerConnection>
     <url>https://github.com/ao-apps/semanticcms-bom</url>
-    <tag>semanticcms-bom-1.14.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
