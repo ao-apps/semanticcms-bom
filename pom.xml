@@ -29,7 +29,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.semanticcms</groupId><artifactId>semanticcms-bom</artifactId><version>1.14.0-POST-SNAPSHOT</version>
+  <groupId>com.semanticcms</groupId><artifactId>semanticcms-bom</artifactId><version>1.15.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -106,7 +106,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.14.0${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.15.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.7.1${POST-SNAPSHOT}</version>
@@ -121,7 +121,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.10.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.12.3${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.13.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.9.1${POST-SNAPSHOT}</version>
@@ -137,7 +137,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
       </dependency>
       <!-- Imports -->
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.14.0-POST-SNAPSHOT</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.15.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -152,7 +152,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-bom</artifactId><version>1.10.0-POST-SNAPSHOT</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-bom</artifactId><version>1.11.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -197,7 +197,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.12.3-POST-SNAPSHOT</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.13.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -247,10 +247,10 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.aoapps</groupId><artifactId>ao-tempfiles</artifactId><version>3.0.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.19.1${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.20.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-theme-base</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-theme-base</artifactId><version>1.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId><artifactId>joda-time</artifactId><version>2.12.5</version>
