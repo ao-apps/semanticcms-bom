@@ -250,7 +250,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.21.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-theme-base</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-theme-base</artifactId><version>1.22.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId><artifactId>joda-time</artifactId><version>2.14.0</version>
