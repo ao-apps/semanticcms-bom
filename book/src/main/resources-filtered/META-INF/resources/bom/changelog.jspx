@@ -37,7 +37,7 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2019-06-11T03:26:41-05:00"
-    dateModified="2026-02-10T03:14:40Z"
+    dateModified="2026-05-25T23:15:05Z"
   >
     <c:set var="latestRelease" value="2.0.1" />
     <c:if test="${
@@ -51,7 +51,12 @@ along with semanticcms-bom.  If not, see <https://www.gnu.org/licenses/>.
         groupId="@{project.groupId}"
         artifactId="@{documented.artifactId}"
         scmUrl="@{project.scm.url}"
-      />
+      >
+        <ul>
+          <li>Updated version of <core:link book="/all" page="/index.jspx" />.</li>
+          <li>Updated version of <core:link book="/tag-reference" page="/index.jspx" />.</li>
+        </ul>
+      </changelog:release>
     </c:if>
 
     <changelog:release
